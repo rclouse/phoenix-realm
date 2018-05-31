@@ -4659,7 +4659,7 @@ CMDF( do_demote )
       victim->unset_pcflag( PCFLAG_PASSDOOR );
       victim->pcdata->realm = 0;
    }
-   funcf( ch, do_bestow, "%s none", victim->name );
+   /*funcf( ch, do_bestow, "%s none", victim->name );*/
    victim->save(  );
    make_wizlist(  );
    build_wizinfo(  );
