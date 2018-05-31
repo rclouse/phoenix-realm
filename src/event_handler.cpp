@@ -596,11 +596,11 @@ void ev_dns_check( void *data )
    add_event( 86400, ev_dns_check, NULL );
 }
 
-/*void ev_webwho_refresh( void *data )
+void ev_webwho_refresh( void *data )
 {
-   web_who(  );
-   add_event( sysdata->webwho, ev_webwho_refresh, NULL );
-}*/
+   /*web_who(  );
+   add_event( sysdata->webwho, ev_webwho_refresh, NULL );*/
+}
 
 #if !defined(__CYGWIN__)
 void ev_mysql_ping( void *data )
