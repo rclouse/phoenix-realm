@@ -195,7 +195,7 @@ void web_colourconv( char *buffer, const char *txt )
    if( !firsttag )
       mudstrlcat( buffer, "</span>", 64000 );
 }
-
+/*
 void web_who(  )
 {
    FILE *webwho = NULL;
@@ -217,7 +217,7 @@ void web_who(  )
    buf << "&Y-=[&d &Wtelnet://" << sysdata->telnet << ":" << mud_port << "&d &Y]=-&d";
    amount = 78 - color_strlen( buf.str(  ).c_str(  ) );  /* Determine amount to put in front of line */
 
-   if( amount < 1 )
+  /* if( amount < 1 )
       amount = 1;
 
    amount = amount / 2;
@@ -342,7 +342,7 @@ void web_who(  )
    web_colourconv( col_buf, webbuf.str(  ).c_str(  ) );
    fprintf( webwho, "%s", col_buf );
    FCLOSE( webwho );
-}
+} */
 
 void web_arealist(  )
 {
