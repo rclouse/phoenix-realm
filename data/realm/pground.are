@@ -1,0 +1,1451 @@
+#XSMAUGAREA
+#AREADATA
+Version         1
+Name            Playground~
+Author          Yaegar~
+Vnums           3725 3759
+Continent       one~
+Coordinates     0 0
+Dates           1403837156 1403837156
+Ranges          1 5 0 115
+ResetFreq       15
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum      3725
+Keywords  bully~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     a playground bully~
+Long      A playground bully wanders around looking for someone's lunch to steal.
+~
+Desc      This socially maladjusted brat is going to make life a misery for some poor
+soul, so why don't you finish him off? But be careful- he's BAD.
+~
+Nattacks  0.000000
+Stats1    -400 0 0 0 0 0
+Stats2    4 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc aggressive~
+#ENDMOBILE
+
+#MOBILE
+Vnum      3726
+Keywords  little boy~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     a little boy~
+Long      A little boy with a lollipop stares curiously at you.
+~
+Desc      What a yucky, irritating little brat. Waste 'im :)
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    1 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc~
+#ENDMOBILE
+
+#MOBILE
+Vnum      3727
+Keywords  little girl~
+Race      human~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Short     a little girl~
+Long      A little girl with a hula-hoop stares curiously at you.
+~
+Desc      What a yucky, irritating little brat. Waste 'er :)
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    1 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc~
+#ENDMOBILE
+
+#MOBILE
+Vnum      3728
+Keywords  stray dog~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     a stray dog~
+Long      A stray dog wanders the yard looking for scraps.
+~
+Desc      Who let this mongrel in? Well, you better kill him- the council will put him
+down if they catch him anyway.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    2 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc scavenger wimpy~
+#ENDMOBILE
+
+#MOBILE
+Vnum      3729
+Keywords  supervisor teacher~
+Race      human~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Short     a class supervisor~
+Long      A class supervisor idly watches her charges frolic.
+~
+Desc      She looks very bored, so why don't you liven up her dull life a little?
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    3 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc wimpy~
+#ENDMOBILE
+
+#MOBILE
+Vnum      3730
+Keywords  bird~
+Race      human~
+Class     Warrior~
+Gender    neuter~
+Position  standing~
+DefPos    standing~
+Short     a bird~
+Long      A bird pecks at some food scraps on the ground.
+~
+Desc      This pushy little scavenger is a menace to the playground. The again, so are
+you...
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    2 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc scavenger~
+#ENDMOBILE
+
+#MOBILE
+Vnum      3731
+Keywords  beetle bug~
+Race      human~
+Class     Warrior~
+Gender    neuter~
+Position  standing~
+DefPos    standing~
+Short     a beetle~
+Long      A tiny beetle hastens along to avoid being squashed by careless kids.
+~
+Desc      This stout little fellow has so far managed to avoid being killed... maybe
+its luck has run out?
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    0 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc~
+#ENDMOBILE
+
+#MOBILE
+Vnum      3732
+Keywords  geek~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the class geek~
+Long      The class geek sulks by himself here.
+~
+Desc      This geek was once the butt of everyone's jokes and everyone ridiculed him
+and he had no friends. So, he taught himself martial arts and kicked their
+butts, but now he still has no friends because they are petrified of him...
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    3 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc aggressive~
+#ENDMOBILE
+
+#MOBILE
+Vnum      3733
+Keywords  mugger~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     a mugger~
+Long      This shady character waits around the schoolyard to nab potential victims.
+~
+Desc      He's bad, he smells and he's probably a pervert. But he'll probably get you
+before you get him so don't be afraid to run.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    4 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc scavenger aggressive~
+#ENDMOBILE
+
+#ROOM
+Vnum      3725
+Name      Southwest Corner of the Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3730
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3726
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3726
+Name      Southern Wall of the Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3731
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3727
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3725
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3727
+Name      Southern Wall of the Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3732
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3728
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3726
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3728
+Name      Southern Wall of the Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3733
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3729
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3727
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3729
+Name      Southeast Corner of the Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3734
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3728
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+Reset M 3726 4 3729 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      3730
+Name      Western Wall of the Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3735
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3731
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3725
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3731
+Name      The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3736
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3732
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3726
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3730
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3732
+Name      The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3737
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3733
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3727
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3731
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+Reset M 3727 4 3732 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      3733
+Name      The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3738
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3734
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3728
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3732
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3734
+Name      Eastern Wall of The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3739
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3729
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3733
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3735
+Name      Western Wall of The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3740
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3736
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3730
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+Reset M 3728 4 3735 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      3736
+Name      The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3741
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3737
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3731
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3735
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3737
+Name      Central Area of The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+
+A gaping hole in the ground here allows access to a darker, more evil
+playground... There is a sign you can look at nearby.
+~
+#EXIT
+Direction north~
+ToRoom    3742
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3738
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3732
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3736
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    3751
+#ENDEXIT
+
+#EXDESC
+ExDescKey    sign~
+ExDesc       WARNING! The playground below is unattended by staff or supervisors and as
+such we can make no guarantee of your safety. Aggressive creatures have been
+known to inhabit this area.
+
+--The Management.
+~
+#ENDEXDESC
+
+#ENDROOM
+
+#ROOM
+Vnum      3738
+Name      The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3743
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3739
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3733
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3737
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+Reset M 3729 2 3738 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      3739
+Name      Eastern Wall of The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3744
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3734
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3738
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3740
+Name      Western Wall of The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3745
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3741
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3735
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3741
+Name      The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3746
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3742
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3736
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3740
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+Reset M 3730 5 3741 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      3742
+Name      The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3747
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3743
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3737
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3741
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3743
+Name      The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3748
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3744
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3738
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3742
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3744
+Name      Western Wall of The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3749
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3739
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3743
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+Reset M 3731 5 3744 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      3745
+Name      Northwestern Corner of The Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction east~
+ToRoom    3746
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3740
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3746
+Name      Northern Wall of the Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction east~
+ToRoom    3747
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3741
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3745
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3747
+Name      Northern Wall of the Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction north~
+ToRoom    3700
+Desc      entrance to nursery school~
+Flags     isdoor closed~
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3748
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3742
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3746
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+Reset D 3747 0 1 100 -2
+Reset M 3729 1 3747 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      3748
+Name      Northern Wall of the Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction east~
+ToRoom    3749
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3743
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3747
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3749
+Name      Northeastern Corner of the Playground~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+#EXIT
+Direction south~
+ToRoom    3744
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3748
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3750
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3750
+Name      The Top of the Jungle Bars~
+Sector    indoors~
+Flags     nomob~
+Stats     0 0 0 0 0
+Desc      Whew! That was close! Lucky those nasty kids didn't get their foul mitts on
+you! You notice a shimmering portal up from here, through which you can
+ascend...
+~
+#EXIT
+Direction up~
+ToRoom    31000
+Desc      outside the temple~
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3751
+Name      Below The Playground~
+Sector    indoors~
+Flags     nomob~
+Stats     0 0 0 0 0
+Desc      The playground above was constructed atop another, older playground that
+had fallen into ruin. Careless workmen didn't entirely seal it off, however,
+and it is now a refuge for derelicts, rejects and shady characters who will
+be most indisposed toward you. You are safe here, as the teachers above can
+still keep an eye on you, but if you proceed into the inky darkness of the
+ruins in any direction, anything could happen...
+~
+#EXIT
+Direction north~
+ToRoom    3753
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3756
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3758
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3755
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    3737
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3752
+Name      Northwestern Corner of the Old Playground~
+Sector    indoors~
+Flags     dark~
+Stats     0 0 0 0 0
+Desc      You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+#EXIT
+Direction east~
+ToRoom    3753
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3755
+#ENDEXIT
+
+Reset M 3725 2 3752 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      3753
+Name      Northern Wall of the Old Playground~
+Sector    indoors~
+Flags     dark~
+Stats     0 0 0 0 0
+Desc      You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+#EXIT
+Direction east~
+ToRoom    3754
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3751
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3752
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3754
+Name      Northeastern Corner of the Old Playground~
+Sector    indoors~
+Flags     dark~
+Stats     0 0 0 0 0
+Desc      You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+#EXIT
+Direction south~
+ToRoom    3756
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3753
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3755
+Name      Western Wall of the Old Playground~
+Sector    indoors~
+Flags     dark~
+Stats     0 0 0 0 0
+Desc      You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+#EXIT
+Direction north~
+ToRoom    3752
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3751
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3757
+#ENDEXIT
+
+Reset M 3732 2 3755 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      3756
+Name      Eastern Wall of the Old Playground~
+Sector    indoors~
+Flags     dark~
+Stats     0 0 0 0 0
+Desc      You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+#EXIT
+Direction north~
+ToRoom    3754
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    3759
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3751
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3757
+Name      Southwestern Corner of the Old Playground~
+Sector    indoors~
+Flags     dark~
+Stats     0 0 0 0 0
+Desc      You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+#EXIT
+Direction north~
+ToRoom    3755
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3758
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      3758
+Name      Southern Wall of the Old Playground~
+Sector    indoors~
+Flags     dark~
+Stats     0 0 0 0 0
+Desc      You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+#EXIT
+Direction north~
+ToRoom    3751
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    3759
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3757
+#ENDEXIT
+
+Reset M 3733 2 3758 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      3759
+Name      Eastern Wall of the Old Playground~
+Sector    indoors~
+Flags     dark~
+Stats     0 0 0 0 0
+Desc      You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+#EXIT
+Direction north~
+ToRoom    3756
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    3758
+#ENDEXIT
+
+#ENDROOM
+
+#ENDAREA

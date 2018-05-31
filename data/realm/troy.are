@@ -1,0 +1,4218 @@
+#XSMAUGAREA
+#AREADATA
+Version         1
+Name            Ilium~
+Author          Yaegar/Aurorix~
+Vnums           29500 29600
+Continent       one~
+Coordinates     0 0
+Dates           1403837156 1403837156
+Ranges          30 45 0 115
+ResetFreq       15
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum      29500
+Keywords  ajax~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Ajax~
+Long      Ajax stands proudly before you.
+~
+Desc      Ajax is a mighty warrior, the most powerful of the Achaens, save for
+Achilles. He is a proud man, and his pride may one day lead to his
+downfall.
+~
+Nattacks  0.000000
+Stats1    400 0 0 0 0 0
+Stats2    42 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29501
+Keywords  achilles~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Achilles~
+Long      Achilles sits here, sulking.
+~
+Desc      Achilles is sulking in his tent due to a slight from Agamemnon. This is
+unfortunate for the Achaeans, as he is their most powerful warrior. He is
+favored of the gods, and possessed of supernatural defenses as he was
+dipped in the Styx while a babe. He was given a choice long ago to live a
+long but uneventful life, or a short but action-filled life, and he chose
+the latter.
+~
+Nattacks  0.000000
+Stats1    500 0 0 0 0 0
+Stats2    45 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29502
+Keywords  odysseus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     King Odysseus~
+Long      Odysseus, King of Ithaca, grins as he concocts another scheme.
+~
+Desc      Odysseus is a powerful warrior, the strongest of the Achaens, and the most
+cunning. While not the best combatant, he more than compensates for this
+with his quick wits, which keep him alive long after all his allies have
+died.
+~
+Nattacks  0.000000
+Stats1    600 0 0 0 0 0
+Stats2    40 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  detect_invis detect_hidden sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29503
+Keywords  agamemnon~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     King Agamemnon~
+Long      Agamemnon, king of Mycenae and commander of the Achaens, stands before you.
+~
+Desc      Agamemnon, one of the two Atreides, is the commander-in-chief of the Greek
+forces who are amassed here to "rescue" Helen from the Trojans. He is stern
+and haughty, and also quite hard and unrelenting in his quest for vengeance.
+~
+Nattacks  0.000000
+Stats1    400 0 0 0 0 0
+Stats2    38 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29504
+Keywords  nestor~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     King Nestor~
+Long      Nestor, king of Pylos, smiles politely at you.
+~
+Desc      Nestor is ruler of the port of Pylos, who came with a small force to aid
+his allies Menelaus and Agamemnon. An elderly man, he is one of the few
+to survive the Trojan War and the subsequent journey home.
+~
+Nattacks  0.000000
+Stats1    700 0 0 0 0 0
+Stats2    34 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29505
+Keywords  menelaus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     King Menelaus~
+Long      Menelaus, King of Sparta, frowns worriedly.
+~
+Desc      Menelaus, one of the Atreides, is one of the central players in this war, for
+it is because of the kidnapping of his wife Helen by Paris that the Achaens
+have come here. Menelaus is worried for his wife, whom he loves greatly.
+~
+Nattacks  0.000000
+Stats1    600 0 0 0 0 0
+Stats2    36 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29506
+Keywords  patroclus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Patroclus~
+Long      Patroclus, favorite of Achilles, stands here quietly.
+~
+Desc      Patroclus is the favored err... "companion" of Achilles. Achilles cares
+deeply for him, but when he goes into his sulk, Patroclus enters the field
+wearing his armor, and is slain by Hector, who thinks him to be Achilles.
+But that is another story.
+~
+Nattacks  0.000000
+Stats1    780 0 0 0 0 0
+Stats2    33 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29507
+Keywords  paris~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Paris~
+Long      Paris, a prince of Troy, glares arrogantly at you.
+~
+Desc      Here he is, the rogue who stole away Helen from Menelaus. Paris is not a mean
+or spiteful man, just a lustful one. Unfortunately his breach of the host-
+guest code of behaviour will cost his whole city its existence.
+~
+Nattacks  0.000000
+Stats1    200 0 0 0 0 0
+Stats2    35 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea wimpy~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29508
+Keywords  hector~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Hector~
+Long      Hector, brother of Paris, stands before you.
+~
+Desc      Hector is one of the mightiest heroes of Troy, save maybe for Aeneas if you
+believe Virgil. He is the favorite son of his parents, and of Troy. He is
+in charge of the Trojan forces.
+~
+Nattacks  0.000000
+Stats1    400 0 0 0 0 0
+Stats2    40 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea mobinvis~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29509
+Keywords  priam~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     King Priam~
+Long      Priam, king of Ilium, hobbles weakly forward.
+~
+Desc      Priam is the elderly king of Troy, and father of Paris and Hector. He is
+too infirm to command his army in battle so that task falls to his favorite
+son, Hector.
+~
+Nattacks  0.000000
+Stats1    500 0 0 0 0 0
+Stats2    31 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29510
+Keywords  aeneas~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Aeneas~
+Long      Aeneas, champion of Troy, stands before you.
+~
+Desc      Aeneas is according to Virgil the greatest of the Trojans, and the one
+who escapes to found Rome. He is a powerful warrior, and a just and
+honorable, if proud, man.
+~
+Nattacks  0.000000
+Stats1    500 0 0 0 0 0
+Stats2    43 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29511
+Keywords  helen~
+Race      human~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Short     Helen~
+Long      Helen, consort of Paris and wife of Menelaus, stands here.
+~
+Desc      Helen is the cause, albeit not willingly, of the war. She was "kidnapped"
+by Paris, whom she developed a deep affection for due to the machinations
+of Aphrodite.
+~
+Nattacks  0.000000
+Stats1    400 0 0 0 0 0
+Stats2    32 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea wimpy~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29512
+Keywords  cassandra~
+Race      human~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Specfun   spec_cast_cleric~
+Short     Cassandra~
+Long      Cassandra, priestess of Apollo, foretells the fall of Troy.
+~
+Desc      Cassandra is the sister of Hector and Paris. She fooled the god Apollo into
+giving her the power of prophecy, which he couldn't reverse, so he cursed
+her by having it that no-one would ever believe her prophecies.
+~
+Nattacks  0.000000
+Stats1    700 0 0 0 0 0
+Stats2    35 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea wimpy~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29513
+Keywords  andromache~
+Race      human~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Short     Andromache~
+Long      Andromache, the wife of Hector, stands here.
+~
+Desc      Andromache is married to Hector, Ilium's favorite son. She stands here on
+the walls watching her husband lead the soldiers into battle.
+~
+Nattacks  0.000000
+Stats1    400 0 0 0 0 0
+Stats2    32 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea wimpy~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29514
+Keywords  hecabe~
+Race      human~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Short     Hecabe~
+Long      Hecabe, Queen of Ilium, smiles sadly.
+~
+Desc      Hecabe is the wife of Priam, and mother of Hector, Paris and Cassandra. And
+that's all there is to say, really.
+~
+Nattacks  0.000000
+Stats1    500 0 0 0 0 0
+Stats2    30 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea wimpy~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29515
+Keywords  automedon~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Automedon~
+Long      Automedon, squire of Achilles, stands ready here.
+~
+Desc      Automedon is one of Achilles' Myrmidons, and serves as his squire. He also
+serves as squire for Patroclus when he goes into battle.
+~
+Nattacks  0.000000
+Stats1    400 0 0 0 0 0
+Stats2    32 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29516
+Keywords  aias~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Aias~
+Long      Aias stands here whining insolently.
+~
+Desc      Aias was in a race for the armor of Achilles, against Odysseus, and was
+tripped when he was ahead by Athena so Odysseus would win. He got a face
+full of dung, and isn't happy about it.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    35 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29517
+Keywords  chalcas~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Chalcas~
+Long      Chalcas, son of Thestor, prophesies about the future.
+~
+Desc      Chalcas is the chief prophet and augur of the Achaen expedition, and offers
+wise advice with his gods-granted powers.
+~
+Nattacks  0.000000
+Stats1    500 0 0 0 0 0
+Stats2    34 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29518
+Keywords  chryseis~
+Race      human~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Short     Chryseis~
+Long      Chryseis, daughter of Chryses, weeps to herself.
+~
+Desc      Chryseis was captured at Thebe by Achilles and alloted to Agamemnon. Apollo,
+deity of her father, forced Agamemnon to return her.
+~
+Nattacks  0.000000
+Stats1    700 0 0 0 0 0
+Stats2    28 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea wimpy~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29519
+Keywords  briseis~
+Race      human~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Short     Briseis~
+Long      Briseis stands here looking confused.
+~
+Desc      Briseis is the source of the quarrel between Achilles and Agamemnon. When
+Agamemnon was forced to return Chryseis, he took Briseis from Achilles,
+who had rightfully captured her. Achilles lost face, and decided to retreat
+to his tent to nurse his injured pride.
+~
+Nattacks  0.000000
+Stats1    200 0 0 0 0 0
+Stats2    28 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea wimpy~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29520
+Keywords  antilochus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Antilochus~
+Long      Antilochus, son of Nestor, grunts in greeting.
+~
+Desc      Antilochus is the brother of Thrasymedes, and the son of King Nestor of
+Pylos. He is a brave and capable warrior, and loyal to his father.
+~
+Nattacks  0.000000
+Stats1    500 0 0 0 0 0
+Stats2    33 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29521
+Keywords  thrasymedes~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Thrasymedes~
+Long      Thrasymedes, son of Nestor, grunts in greeting.
+~
+Desc      Thrasymedes is the brother of Antilochus, and the son of King Nestor of
+Pylos. He is a brave and capable warrior, and loyal to his father.
+~
+Nattacks  0.000000
+Stats1    500 0 0 0 0 0
+Stats2    32 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29522
+Keywords  diomedes~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     King Diomedes~
+Long      Diomedes, king of Argos, smiles and greets you.
+~
+Desc      Diomedes is an affable-enough fellow, very found of Tydeus his father. He
+is of even temper, and much more likeable than most of the surly Achaeans.
+~
+Nattacks  0.000000
+Stats1    800 0 0 0 0 0
+Stats2    35 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29523
+Keywords  eurypylus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Eurypylus~
+Long      Eurypylus stands ready for combat.
+~
+Desc      An Achaean soldier who has seen action fighting Paris. He is unremarkable.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    31 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29524
+Keywords  idomeneus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     King Idomeneus~
+Long      Idomeneus, son of Deucalion and King of Crete, is one of Agamemnon's captains.
+~
+Desc      Idomeneus is easily one of the most ablest officers in Agamemnon's staff,
+and quite amiable to boot. He is able in command and in combat.
+~
+Nattacks  0.000000
+Stats1    600 0 0 0 0 0
+Stats2    38 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29525
+Keywords  machaon~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Specfun   spec_cast_adept~
+Short     Machaon~
+Long      Machaon, son of the famous Asclepius, tends to the sick here.
+~
+Desc      Machaon, along with his brother Podaleirius, serves as chief physician to
+the Achaen troops.
+~
+Nattacks  0.000000
+Stats1    500 0 0 0 0 0
+Stats2    30 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea immortal~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29526
+Keywords  menestheus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Menestheus~
+Long      Menestheus, son of Prince Peteos, leads the Athenian contingent.
+~
+Desc      Menestheus is the son of Prince Peteos, ruler of Athens, and has been
+sent in charge of the troops Athens sent to aid her allies.
+~
+Nattacks  0.000000
+Stats1    400 0 0 0 0 0
+Stats2    35 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29527
+Keywords  meriones~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Meriones~
+Long      Meriones, nephew of Idomeneus, stands ready.
+~
+Desc      Meriones is squire to Idomeneus, and also second in command of the Cretan
+contingent.
+~
+Nattacks  0.000000
+Stats1    500 0 0 0 0 0
+Stats2    35 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29528
+Keywords  sthenelus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Sthenelus~
+Long      Sthenelus, squire of Diomedes, stands ready to assist his master.
+~
+Desc      Sthenelus is an unremarkable squire.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    28 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea wimpy~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29529
+Keywords  talthybius~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Talthybius~
+Long      Talthybius, herald of Agamemnon, stands outside the tent.
+~
+Desc      He is Agamemnon's chief herald.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    30 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea wimpy~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29530
+Keywords  greater aias~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the greater Aias~
+Long      The greater Aias strings his bow and eyes you cautiously.
+~
+Desc      The greater Aias is the greatest archer of all the Achaeans. He is the son
+of King Telamon, the ruler of Salamis, and is thus sometimes called
+Telamonian Aias.
+~
+Nattacks  0.000000
+Stats1    500 0 0 0 0 0
+Stats2    34 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29531
+Keywords  thersites~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Thersites~
+Long      Thersites scratches himself and spits on the ground.
+~
+Desc      A common foot soldier, Thersites is remarkable only for his unruliness, and
+his big mouth, which gets him killed by Achilles eventually.
+~
+Nattacks  0.000000
+Stats1    -400 0 0 0 0 0
+Stats2    25 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea wimpy~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29532
+Keywords  tleopolemus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Tleopolemus~
+Long      Tleopolemus smiles grimly and readies his weapons.
+~
+Desc      Tleopolemus is the son of Heracles and Astyocheia, and hails from Rhodes.
+~
+Nattacks  0.000000
+Stats1    400 0 0 0 0 0
+Stats2    34 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29533
+Keywords  antenor~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Antenor~
+Long      Antenor the traitor sneaks past.
+~
+Desc      Antenor was called a traitor for he advised his king to give up Helen to
+the Achaeans, and when they took Ilium they spared him. He was a Trojan
+noble.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    30 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea wimpy~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29534
+Keywords  deiphobus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Deiphobus~
+Long      Deiphobus, another Prince of Troy, strolls past you.
+~
+Desc      Deiphobus is another son of Priam and Hecabe. When Paris is slain he weds
+Helen and is subsequently slain by Menelaus for his troubles.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    32 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29535
+Keywords  glaucus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Glaucus~
+Long      Glaucus son of Hippolochus stands here.
+~
+Desc      Glaucus is second in command of the Lycian allies under Sarpedon his cousin.
+~
+Nattacks  0.000000
+Stats1    200 0 0 0 0 0
+Stats2    30 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29536
+Keywords  helenus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Specfun   spec_cast_cleric~
+Short     Helenus~
+Long      Helenus, yet another Prince of Troy, casts an augury.
+~
+Desc      Helenus is another son of Priam and Hecabe. Like Cassandra, his sister, he
+has the gift of prophecy. He eventually weds Andromache.
+~
+Nattacks  0.000000
+Stats1    400 0 0 0 0 0
+Stats2    33 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29537
+Keywords  neoptolemus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Neoptolemus~
+Long      Neoptolemus, son of Achilles, swaggers past you.
+~
+Desc      Neoptolemus may be the son of Achilles, but he isn't a patch on his father
+in terms of ability or strength.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    30 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea wimpy~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29538
+Keywords  idaeus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Idaeus~
+Long      Idaeus stands ready in the court.
+~
+Desc      Idaeus is the herald of king Priam, his chief herald in fact. Not the most
+exciting of jobs, really.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    28 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea wimpy~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29539
+Keywords  pandarus~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Pandarus~
+Long      Pandarous, son of Lycaon, is here.
+~
+Desc      Pandarus is a fool, a treacherous one at that too. He isn't very important.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    25 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea wimpy~
+Affected  protect~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29540
+Keywords  polydamas~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Polydamas~
+Long      Polydamus, a Trojan general, surveys his men.
+~
+Desc      Despite being a commoner, Polydamus is one of Troy's best warriors and
+leaders. He is a cautious, clear-headed strategist, one of the ablest of
+the leaders on either side.
+~
+Nattacks  0.000000
+Stats1    500 0 0 0 0 0
+Stats2    38 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29541
+Keywords  sarpedon~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     King Sarpedon~
+Long      King Sarpedon, king of Lycia and a son of Zeus himself, is here.
+~
+Desc      Sarpedon is the commander of Troy's Lycian allies, and is a competent
+ruler. His mother, Laodameia, was the daughter of Bellerophon, slayer of
+the Chimera, and tamer of the Pegasus.
+~
+Nattacks  0.000000
+Stats1    400 0 0 0 0 0
+Stats2    40 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Affected  sanctuary~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29542
+Keywords  achaean soldier~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     an Achaean soldier~
+Long      An Achaean soldier marches back and forth.
+~
+Desc      This fellow has been fighting for nine years.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    30 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29543
+Keywords  trojan soldier~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     a Trojan soldier~
+Long      A Trojan soldier marches back and forth.
+~
+Desc      This fellow has been fighting for nine years.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    30 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29544
+Keywords  trojan citizen~
+Race      human~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     a Trojan citizen~
+Long      A Trojan citizen hurries by.
+~
+Desc      These citizens are sick of the war.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    20 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea wimpy~
+#ENDMOBILE
+
+#MOBILE
+Vnum      29545
+Keywords  trojan citizen~
+Race      human~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Short     a Trojan citizen~
+Long      A Trojan citizen hurries by.
+~
+Desc      These citizens are sick of the war.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 0 0
+Stats2    20 21 0 0 0 0 0
+Speaking  common~
+Actflags  npc stayarea wimpy~
+#ENDMOBILE
+
+#OBJECT
+Vnum      29500
+Keywords  spear~
+Type      weapon~
+Short     a short thrusting spear~
+Long      A short thrusting spear is jabbed in the dirt here.~
+WFlags    take~
+Values    0 0 0 2 0 0 0 0 0 0 0
+Stats     5 0 -2 9999 0 None None None
+AffData hitroll 2 -1 -1 0
+AffData damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29501
+Keywords  spear~
+Type      pipe~
+Short     a long throwing spear~
+Long      A long throwing spear has been thrust into the dirt here.~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     10 0 -2 9999 0 None None None
+AffData hitroll 4 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29502
+Keywords  ox hide shield~
+Type      armor~
+Short     an ox hide shield~
+Long      An ox hide shield rests on the ground here.~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     5 0 -2 9999 0 None None None
+AffData armor -10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29503
+Keywords  boar tusk helm~
+Type      armor~
+Short     a boar tusk helm~
+Long      A boar tusk helm lies here.~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     5 0 -2 9999 0 None None None
+AffData constitution 2 -1 -1 0
+AffData hit 15 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29504
+Keywords  leather jerkin~
+Type      armor~
+Short     a leather jerkin~
+Long      A leather jerkin lies in the dirt here.~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     7 0 -2 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum      29505
+Keywords  bronze breastplate~
+Type      armor~
+Short     a bronze breastplate~
+Long      A bronze breastplate has been left here.~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     15 0 -2 9999 0 None None None
+AffData strength 2 -1 -1 0
+AffData intelligence -1 -1 -1 0
+AffData armor -10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29506
+Keywords  goblet wine~
+Type      drinkcon~
+Short     a goblet of watered wine~
+Long      A goblet of watered wine rests here.~
+WFlags    take~
+Values    5 4 2 0 0 0 0 0 0 0 0
+Stats     5 0 -2 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum      29507
+Keywords  board game~
+Type      trash~
+Short     a board game~
+Long      A board game rests on a table here.~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     5 0 -2 9999 0 None None None
+AffData dexterity 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29508
+Keywords  achilles breastplate~
+Type      armor~
+Short     achilles' breastplate~
+Long      Achilles' breastplate lies here.~
+Flags     glow magic antigood~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     5 0 -2 9999 0 None None None
+AffData constitution 3 -1 -1 0
+AffData armor -16 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29509
+Keywords  achilles greaves~
+Type      armor~
+Short     achilles' greaves~
+Long      Achilles' greaves lie here.~
+Flags     glow magic antigood~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     5 0 -2 9999 0 None None None
+AffData intelligence 3 -1 -1 0
+AffData move 60 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29510
+Keywords  achilles helm~
+Type      armor~
+Short     achilles' helm~
+Long      Achilles' helm lies here.~
+Flags     glow magic antigood~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     5 0 -2 9999 0 None None None
+AffData dexterity 3 -1 -1 0
+AffData mana 50 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29511
+Keywords  achilles' sword~
+Type      weapon~
+Short     achilles' sword~
+Long      Achilles' sword lies here.~
+Flags     glow antigood~
+WFlags    take~
+Values    0 0 0 11 0 0 0 0 0 0 0
+Stats     10 0 -2 9999 0 None None None
+AffData hitroll 8 -1 -1 0
+AffData damroll 8 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29512
+Keywords  bronze sword~
+Type      weapon~
+Short     a bronze sword~
+Long      A bronze sword lies here.~
+WFlags    take~
+Values    0 0 0 11 0 0 0 0 0 0 0
+Stats     5 0 -2 9999 0 None None None
+AffData hitroll -2 -1 -1 0
+AffData damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29513
+Keywords  bronze dagger~
+Type      weapon~
+Short     a bronze dagger~
+Long      A bronze dagger with lions carved upon it lies here.~
+WFlags    take~
+Values    0 0 0 11 0 0 0 0 0 0 0
+Stats     3 0 -2 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum      29514
+Keywords  bronze shield~
+Type      armor~
+Short     a bronze shield~
+Long      A bronze shield has been left here.~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     8 0 -2 9999 0 None None None
+AffData armor -13 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29515
+Keywords  achilles' shield~
+Type      armor~
+Short     achilles' shield~
+Long      Achilles' shield lies here.~
+Flags     glow magic antigood~
+WFlags    take~
+Values    10 0 0 0 0 0 0 0 0 0 0
+Stats     5 0 -2 9999 0 None None None
+AffData sex 3 -1 -1 0
+AffData armor -15 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29516
+Keywords  sandals~
+Type      armor~
+Short     a pair of sandals~
+Long      A pair of sandals lie here.~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     3 0 -2 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum      29517
+Keywords  stone axe~
+Type      weapon~
+Short     a stone axe~
+Long      A stone axe lies here.~
+WFlags    take~
+Values    0 0 0 8 0 0 0 0 0 0 0
+Stats     15 0 -2 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum      29518
+Keywords  banner~
+Type      trash~
+Short     a banner~
+Long      A banner is stuck in the ground here.~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     10 0 -2 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum      29519
+Keywords  bronze helm~
+Type      armor~
+Short     a bronze helm~
+Long      A bronze helm with horsehair plume lies here.~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     10 0 -2 9999 0 None None None
+AffData constitution 2 -1 -1 0
+AffData armor -11 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum      29520
+Keywords  cot~
+Type      furniture~
+Short     a cot~
+Long      A cot with heavy furs piled on it sits here.~
+WFlags    take~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     25 0 -2 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum      29500
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29505
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29501
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29501
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29506
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29502
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29500
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29502
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+
+Mountains loom to the south, though you do see a point where you could 
+set ashore.
+~
+#EXIT
+Direction north~
+ToRoom    29507
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29503
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    15404
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29501
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29503
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29508
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29504
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29502
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29504
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29509
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29503
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29505
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29510
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29506
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29500
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29506
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29511
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29507
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29501
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29505
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29507
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29512
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29508
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29502
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29506
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29508
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29513
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29509
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29503
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29507
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29509
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29514
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29504
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29508
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29510
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29515
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29511
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29505
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29511
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29516
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29512
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29506
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29510
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29512
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29517
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29513
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29507
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29511
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29513
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29518
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29514
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29508
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29512
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29514
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29519
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29509
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29513
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29515
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29520
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29516
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29510
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29516
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29521
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29517
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29511
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29515
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29517
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29522
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29518
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29512
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29516
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29518
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29523
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29519
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29513
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29517
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29519
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29524
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29514
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29518
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29520
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29525
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29521
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29515
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29521
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+
+The coastline is visible from here, though there is no place to land.
+~
+#EXIT
+Direction north~
+ToRoom    29526
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29522
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29516
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29520
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29522
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+
+The coastline is visible from here, though there is no place to land.
+~
+#EXIT
+Direction east~
+ToRoom    29523
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29517
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29521
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29523
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+
+The coastline is visible from here, as are several black hulled ships, all
+moored to the north.
+~
+#EXIT
+Direction north~
+ToRoom    29528
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29524
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29518
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29522
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29524
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+
+The coastline is visible from here, though there is no place to land.
+~
+#EXIT
+Direction south~
+ToRoom    29519
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29523
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29525
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+~
+#EXIT
+Direction north~
+ToRoom    29527
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29526
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29520
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29526
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+
+The coastline is visible from here, though there is no place to land.
+~
+#EXIT
+Direction south~
+ToRoom    29521
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29525
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29527
+Name      Sailing Over the Wine Dark Sea~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are sailing across the deep seas of the north. Dawn appears, fresh and
+rosy-fingered, and catches you making your way across the wine dark stretches
+of the deep sea, sailing toward whatever adventures may wait.
+
+The coastline is visible from here. You could moor in a small inlet to the
+east near the walls of a great city.
+~
+#EXIT
+Direction east~
+ToRoom    29529
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29525
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29528
+Name      The Shallows~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are currently bobbing up and down in the shallows. To the north lies
+a huge plain, littered with tents and armored men, who are grouped around
+the walls of a huge city. It looks as if some fierce fighting has taken
+place here.
+~
+#EXIT
+Direction north~
+ToRoom    29533
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29523
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29529
+Name      An Inlet~
+Sector    water_noswim~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are bobbing up and down in an inlet below a small cliff than lies beneath
+the walls of a massive city- TROY. You could ascend this way, if you have
+the means, otherwise you will have to sail round till you find a more
+convenient disemarkation point.
+~
+#EXIT
+Direction west~
+ToRoom    29527
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    29530
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29530
+Name      Flying up the Cliffs~
+Sector    air~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are traveling by a method which eluded the Achaeans besieging Troy-
+flight. If they could fly the war would have ended years ago. You chuckle
+at their misfortune and continue to travel. The walls lie to the east of you.
+Below lies the wine-dark sea.
+~
+#EXIT
+Direction east~
+ToRoom    29594
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    29529
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29531
+Name      The Battlefield~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking across the battlefield before the walls of Troy, where the
+besieging army of the Achaeans, led by Agamemnon, have sat encamped for
+years, the monotony only broken by the occasional battle. Tents lay
+everywhere, housing the many soldiers that currently call this place home.
+~
+#EXIT
+Direction north~
+ToRoom    29534
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29532
+#ENDEXIT
+
+Reset M 29515 1 29531 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+Reset O 29518 1 29531 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      29532
+Name      The Battlefield~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking across the battlefield before the walls of Troy, where the
+besieging army of the Achaeans, led by Agamemnon, have sat encamped for
+years, the monotony only broken by the occasional battle. Tents lay
+everywhere, housing the many soldiers that currently call this place home.
+~
+#EXIT
+Direction north~
+ToRoom    29535
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29533
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29531
+#ENDEXIT
+
+Reset O 29518 1 29532 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      29533
+Name      The Battlefield~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking across the battlefield before the walls of Troy, where the
+besieging army of the Achaeans, led by Agamemnon, have sat encamped for
+years, the monotony only broken by the occasional battle. Tents lay
+everywhere, housing the many soldiers that currently call this place home.
+~
+#EXIT
+Direction north~
+ToRoom    29536
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29528
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29532
+#ENDEXIT
+
+Reset O 29518 1 29533 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      29534
+Name      Achilles' Tent~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      Achilles is in here, moping. He lost face when Agamemnon took Briseis from
+him, and he is punishing the Mycenaean ruler by refusing to take to the
+field, a move which is costing the Achaeans dearly, as he is their best
+warrior.
+~
+#EXIT
+Direction south~
+ToRoom    29531
+#ENDEXIT
+
+Reset M 29501 1 29534 -1 -1 -1 100
+  Reset E 29508 1 5 100
+  Reset E 29509 1 7 100
+  Reset E 29510 1 6 100
+  Reset E 29511 1 16 100
+  Reset E 29515 1 11 100
+  Reset E 29516 1 8 100
+  Reset E 29501 1 17 100
+Reset M 29506 1 29534 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum      29535
+Name      Ajax's Tent~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This tent is the abode of the hero Ajax. He is usually not here, as he
+prefers to be out fighting or in the wine tent drinking.
+~
+#EXIT
+Direction south~
+ToRoom    29532
+#ENDEXIT
+
+Reset M 29500 1 29535 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+Reset O 29520 1 29535 -1 -1 -1 100
+Reset O 29506 1 29535 -1 -1 -1 100
+Reset O 29507 1 29535 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      29536
+Name      The Battlefield~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking across the battlefield before the walls of Troy, where the
+besieging army of the Achaeans, led by Agamemnon, have sat encamped for
+years, the monotony only broken by the occasional battle. Tents lay
+everywhere, housing the many soldiers that currently call this place home.
+~
+#EXIT
+Direction north~
+ToRoom    29544
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29537
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29533
+#ENDEXIT
+
+Reset M 29542 16 29536 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum      29537
+Name      The Battlefield~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking across the battlefield before the walls of Troy, where the
+besieging army of the Achaeans, led by Agamemnon, have sat encamped for
+years, the monotony only broken by the occasional battle. Tents lay
+everywhere, housing the many soldiers that currently call this place home.
+~
+#EXIT
+Direction north~
+ToRoom    29538
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29540
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29539
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29536
+#ENDEXIT
+
+Reset O 29518 1 29537 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      29538
+Name      Nestor's Tent~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This is the tent of King Nestor, leader of the contingent from Pylos. He
+is one of the older generals here, and one of the more wiser. However,
+he is not one of the more influential.
+~
+#EXIT
+Direction south~
+ToRoom    29537
+#ENDEXIT
+
+Reset M 29504 1 29538 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+Reset M 29520 1 29538 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+Reset M 29521 1 29538 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29539
+Name      Odysseus' Tent~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This is the tent of noble Odysseus, the most notable of all the heroes
+assembled for this battle. Chances are he won't be here, but rather off
+fixing up his little equine surprise for the Trojans...
+~
+#EXIT
+Direction north~
+ToRoom    29537
+#ENDEXIT
+
+Reset O 29520 1 29539 -1 -1 -1 100
+Reset O 29506 1 29539 -1 -1 -1 100
+Reset O 29507 1 29539 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      29540
+Name      The Battlefield~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking across the battlefield before the walls of Troy, where the
+besieging army of the Achaeans, led by Agamemnon, have sat encamped for
+years, the monotony only broken by the occasional battle. Tents lay
+everywhere, housing the many soldiers that currently call this place home.
+~
+#EXIT
+Direction north~
+ToRoom    29541
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29543
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29542
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29537
+#ENDEXIT
+
+Reset M 29529 1 29540 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+Reset O 29518 1 29540 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      29541
+Name      Menelaus' Tent~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      Here resides King Menelaus of Sparta, the man who is at the center of all
+the trouble, for it is his wife (Helen) everyone from all over Greece is
+here to rescue. He must feel terribly embarrassed for having dragged half of
+Greece to some remote Turkish city for 9 years.
+~
+#EXIT
+Direction south~
+ToRoom    29540
+#ENDEXIT
+
+Reset M 29505 1 29541 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29542
+Name      Agamemnon's Tent~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      Here the head of the Achaean expedition resides, and also holds his staff
+meetings. Battle plans hang on the walls and are also strewn over tables,
+chairs, cots and the floor. Agamemnon is rather irritated at having spent
+nine years in this tent, and the stress is starting to show.
+~
+#EXIT
+Direction north~
+ToRoom    29540
+#ENDEXIT
+
+Reset M 29503 1 29542 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+Reset M 29517 1 29542 -1 -1 -1 100
+Reset M 29519 1 29542 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      29543
+Name      The Physicians' Tent~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      Here Machaon, son of Asclepius, and his brother tend to the sick and the
+wounded. They will even tend your injuries, for a fee.
+~
+#EXIT
+Direction west~
+ToRoom    29540
+#ENDEXIT
+
+Reset M 29525 1 29543 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29544
+Name      The Battlefield~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking across the battlefield before the walls of Troy, where the
+besieging army of the Achaeans, led by Agamemnon, have sat encamped for
+years, the monotony only broken by the occasional battle. Tents lay
+everywhere, housing the many soldiers that currently call this place home.
+~
+#EXIT
+Direction north~
+ToRoom    29548
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29536
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29545
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29545
+Name      The Battlefield~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking across the battlefield before the walls of Troy, where the
+besieging army of the Achaeans, led by Agamemnon, have sat encamped for
+years, the monotony only broken by the occasional battle. Tents lay
+everywhere, housing the many soldiers that currently call this place home.
+~
+#EXIT
+Direction east~
+ToRoom    29544
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29546
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29546
+Name      The Games~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      Even during times of war, the Achaeans find time for competitive sports
+meets, and this war is no exception. This area has been converted into
+a rudimentary arena, with lanes for running and chariot racing, circles
+for discus and shotput, and a ring for boxing.
+~
+#EXIT
+Direction east~
+ToRoom    29545
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29547
+#ENDEXIT
+
+Reset M 29516 1 29546 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum      29547
+Name      The Games~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      Even during times of war, the Achaeans find time for competitive sports
+meets, and this war is no exception. This area has been converted into
+a rudimentary arena, with lanes for running and chariot racing, circles
+for discus and shotput, and a ring for boxing.
+~
+#EXIT
+Direction east~
+ToRoom    29546
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29548
+Name      The Battlefield~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking across the battlefield before the walls of Troy, where the
+besieging army of the Achaeans, led by Agamemnon, have sat encamped for
+years, the monotony only broken by the occasional battle. Tents lay
+everywhere, housing the many soldiers that currently call this place home.
+~
+#EXIT
+Direction north~
+ToRoom    29556
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29555
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29544
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29549
+#ENDEXIT
+
+Reset M 29542 16 29548 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum      29549
+Name      The Battlefield~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking across the battlefield before the walls of Troy, where the
+besieging army of the Achaeans, led by Agamemnon, have sat encamped for
+years, the monotony only broken by the occasional battle. Tents lay
+everywhere, housing the many soldiers that currently call this place home.
+~
+#EXIT
+Direction north~
+ToRoom    29550
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29548
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29551
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29552
+#ENDEXIT
+
+Reset O 29518 1 29549 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      29550
+Name      Idoemeneus' Tent~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This is the tent of Idomeneus, King of the Cretans (NOT Cretins ;P). He is
+Agamemnon's best and most trusted captain, and as such is highly respected
+by the Achaeans.
+~
+#EXIT
+Direction south~
+ToRoom    29549
+#ENDEXIT
+
+Reset M 29524 1 29550 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29551
+Name      Menestheus' Tent~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      Menestheus is a prince from Athens, and leader of the Athenian contingent
+sent to the war. He is not a major player so I won't give him a major
+room description.
+~
+#EXIT
+Direction north~
+ToRoom    29549
+#ENDEXIT
+
+Reset M 29526 1 29551 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29552
+Name      The Battlefield~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking across the battlefield before the walls of Troy, where the
+besieging army of the Achaeans, led by Agamemnon, have sat encamped for
+years, the monotony only broken by the occasional battle. Tents lay
+everywhere, housing the many soldiers that currently call this place home.
+~
+#EXIT
+Direction north~
+ToRoom    29553
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29549
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29554
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29557
+#ENDEXIT
+
+Reset O 29518 1 29552 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum      29553
+Name      Tlepolemus' Tent~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This is the tent of the Argive prince Tlepolemus, son of the legendary
+Heracles. He is a mighty warrior and a great ally of the Achaean forces.
+Notice how all these Achaeans have names ending with 's'?
+~
+#EXIT
+Direction south~
+ToRoom    29552
+#ENDEXIT
+
+Reset M 29532 1 29553 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29554
+Name      Aias the Greater's Tent~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This is the tent of Aias the Greater, the best archer of all the Achaeans,
+and a superb athlete. He is most probably currently competing in some
+competition even as we speak.
+~
+#EXIT
+Direction north~
+ToRoom    29552
+#ENDEXIT
+
+Reset M 29530 1 29554 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29555
+Name      The Horse~
+Sector    forest~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      This is a broad clearing full of tradesmen and a huge, half-finished wooden
+horse. You see scattered about the clearing wooden rabbits, badgers, stoats,
+turtles, hawks and echidnas. Evidently a lot of thought went into the final
+choice for the lure...
+~
+#EXIT
+Direction west~
+ToRoom    29548
+#ENDEXIT
+
+Reset M 29502 1 29555 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29556
+Name      The Battlefield~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking across the battlefield before the walls of Troy, where the
+besieging army of the Achaeans, led by Agamemnon, have sat encamped for
+years, the monotony only broken by the occasional battle. Tents lay
+everywhere, housing the many soldiers that currently call this place home.
+~
+#EXIT
+Direction north~
+ToRoom    29558
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29548
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29557
+Name      Diomedes' Tent~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This is the tent of Diomedes, King of Argos, the most amicable and well-
+liked of the Achaean leaders on the field. He is also a competent warrior
+and military leader, and engenders great likeness and respect from the
+troops.
+~
+#EXIT
+Direction east~
+ToRoom    29552
+#ENDEXIT
+
+Reset M 29522 1 29557 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+Reset M 29528 1 29557 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum      29558
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+~
+#EXIT
+Direction north~
+ToRoom    29565
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29561
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29556
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29560
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29559
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+~
+#EXIT
+Direction north~
+ToRoom    29563
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29560
+#ENDEXIT
+
+Reset M 29531 1 29559 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum      29560
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+~
+#EXIT
+Direction north~
+ToRoom    29564
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29558
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29559
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29561
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+~
+#EXIT
+Direction north~
+ToRoom    29566
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29562
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29558
+#ENDEXIT
+
+Reset M 29537 1 29561 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29562
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+~
+#EXIT
+Direction north~
+ToRoom    29567
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29561
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29563
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+~
+#EXIT
+Direction north~
+ToRoom    29568
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29564
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29559
+#ENDEXIT
+
+Reset M 29523 1 29563 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29564
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+
+The City of Troy lies directly to the north.
+~
+#EXIT
+Direction east~
+ToRoom    29565
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29560
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29563
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29565
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+
+The City of Troy lies directly to the north.
+~
+#EXIT
+Direction north~
+ToRoom    29572
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29566
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29558
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29564
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29566
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+
+The City of Troy lies directly to the north.
+~
+#EXIT
+Direction east~
+ToRoom    29567
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29561
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29565
+#ENDEXIT
+
+Reset M 29542 16 29566 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum      29567
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+~
+#EXIT
+Direction north~
+ToRoom    29570
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29562
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29566
+#ENDEXIT
+
+Reset M 29527 1 29567 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29568
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+
+The City of Troy lies directly to the east.
+~
+#EXIT
+Direction north~
+ToRoom    29569
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29563
+#ENDEXIT
+
+Reset M 29542 16 29568 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum      29569
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+
+The City of Troy lies directly to the east.
+~
+#EXIT
+Direction south~
+ToRoom    29568
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29570
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+
+The City of Troy lies directly to the west.
+~
+#EXIT
+Direction north~
+ToRoom    29571
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29567
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29571
+Name      The Front Line~
+Sector    field~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the front line, in the midst of the field that has hosted the
+bulk of the senseless conflict between Achaean and Trojan. The blood of
+thousands slain on both sides has soaked into the soil here, and there are
+weapons, armor and bones littered all about here.
+
+The City of Troy lies directly to the west.
+~
+#EXIT
+Direction south~
+ToRoom    29570
+#ENDEXIT
+
+Reset M 29543 12 29571 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum      29572
+Name      Outside the Gates of Ilium~
+Sector    field~
+Flags     nomob~
+Stats     0 0 0 0 0
+Desc      The Gates of Ilium loom before you, tall and magnificent. They are crafted
+of solid oak bound with bronze. Surprisingly, they are closed but unlocked-
+the Achaean never thought to turn the handle...;)
+~
+#EXIT
+Direction north~
+ToRoom    29573
+Flags     isdoor~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29565
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29573
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The city gates lie to the south.
+~
+#EXIT
+Direction north~
+ToRoom    29580
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29576
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29572
+Flags     isdoor~
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29575
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29574
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The massive walls of the city that loom to the west look strong enough to
+repel any foe, though.
+~
+#EXIT
+Direction north~
+ToRoom    29578
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29575
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29575
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The massive walls of the city that loom to the south look strong enough to
+repel any foe, though.
+~
+#EXIT
+Direction north~
+ToRoom    29579
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29573
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29574
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29576
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The massive walls of the city that loom to the south look strong enough to
+repel any foe, though.
+~
+#EXIT
+Direction north~
+ToRoom    29581
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29577
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29573
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29577
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The massive walls of the city that loom to the east look strong enough to
+repel any foe, though.
+~
+#EXIT
+Direction north~
+ToRoom    29582
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29576
+#ENDEXIT
+
+Reset M 29543 12 29577 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum      29578
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The massive walls of the city that loom to the west look strong enough to
+repel any foe, though.
+~
+#EXIT
+Direction north~
+ToRoom    29583
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29574
+#ENDEXIT
+
+Reset M 29539 1 29578 -1 -1 -1 100
+  Reset E 29517 1 16 100
+Reset M 29544 6 29578 -1 -1 -1 100
+  Reset E 29512 1 16 100
+Reset M 29545 6 29578 -1 -1 -1 100
+  Reset E 29513 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum      29579
+Name      A Residence~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This is the home of some important citizen of Troy. Fine tapestries adorn
+the walls, while a thick rug woven from materials unfamiliar to you
+covers the stone floor. There is an ornate sofa near one wall, and a table
+holding a bronze urn near the doorway.
+~
+#EXIT
+Direction south~
+ToRoom    29575
+#ENDEXIT
+
+Reset M 29518 1 29579 -1 -1 -1 100
+  Reset E 29513 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum      29580
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The massive walls of the city that loom to the south look strong enough to
+repel any foe, though. The palace lies to the north of here.
+~
+#EXIT
+Direction north~
+ToRoom    29584
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29573
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29581
+Name      A Residence~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This is the home of some important citizen of Troy. Fine tapestries adorn
+the walls, while a thick rug woven from materials unfamiliar to you
+covers the stone floor. There is an ornate sofa near one wall, and a table
+holding a bronze urn near the doorway.
+~
+#EXIT
+Direction south~
+ToRoom    29576
+#ENDEXIT
+
+Reset M 29533 1 29581 -1 -1 -1 100
+  Reset E 29513 1 16 100
+Reset M 29540 1 29581 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29582
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The massive walls of the city that loom to the east look strong enough to
+repel any foe, though.
+~
+#EXIT
+Direction north~
+ToRoom    29585
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29577
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29583
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The massive walls of the city that loom to the west look strong enough to
+repel any foe, though.
+~
+#EXIT
+Direction north~
+ToRoom    29586
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29578
+#ENDEXIT
+
+Reset M 29543 12 29583 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum      29584
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The massive walls of the city that loom to the south look strong enough to
+repel any foe, though. The walls of the magnificent palace loom to the
+north.
+~
+#EXIT
+Direction north~
+ToRoom    29588
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29580
+#ENDEXIT
+
+Reset M 29534 1 29584 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+Reset M 29544 6 29584 -1 -1 -1 100
+  Reset E 29512 1 16 100
+Reset M 29545 6 29584 -1 -1 -1 100
+  Reset E 29513 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum      29585
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The massive walls of the city that loom to the east look strong enough to
+repel any foe, though.
+~
+#EXIT
+Direction north~
+ToRoom    29590
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29582
+#ENDEXIT
+
+Reset M 29543 12 29585 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29502 1 1 100
+  Reset E 29503 1 6 100
+  Reset E 29504 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum      29586
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The massive walls of the city that loom to the west look strong enough to
+repel any foe, though.
+~
+#EXIT
+Direction north~
+ToRoom    29591
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29587
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29583
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29587
+Name      A Residence~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This is the home of some important citizen of Troy. Fine tapestries adorn
+the walls, while a thick rug woven from materials unfamiliar to you
+covers the stone floor. There is an ornate sofa near one wall, and a table
+holding a bronze urn near the doorway.
+~
+#EXIT
+Direction west~
+ToRoom    29586
+#ENDEXIT
+
+Reset M 29535 1 29587 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+Reset M 29541 1 29587 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29588
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The massive walls of the city that loom to the south look strong enough to
+repel any foe, though. The entrance to the palace is directly north of
+you.
+~
+#EXIT
+Direction north~
+ToRoom    29592
+Flags     isdoor~
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29584
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29589
+Name      A Residence~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This is the home of some important citizen of Troy. Fine tapestries adorn
+the walls, while a thick rug woven from materials unfamiliar to you
+covers the stone floor. There is an ornate sofa near one wall, and a table
+holding a bronze urn near the doorway.
+~
+#EXIT
+Direction east~
+ToRoom    29590
+#ENDEXIT
+
+Reset M 29510 1 29589 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29590
+Name      The Streets of Ilium~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on a street in the city of Ilium, also known as Troy.
+Trojans run here and there, with worried looks on their faces, for they
+are concerned for the safety of their city and their families during this
+war. This state of war has lasted for nine years, with no sign of abating.
+The massive walls of the city that loom to the east look strong enough to
+repel any foe, though.
+~
+#EXIT
+Direction north~
+ToRoom    29593
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29585
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29589
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29591
+Name      The End of the Road~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      The road ends here at the sheer face of the northern wall of the city, which
+faces onto the tall, impenetrable mountains that loom north of the plains
+of Ilium.
+
+However, you may climb the wall here at a weak point should you wish to.
+~
+#EXIT
+Direction south~
+ToRoom    29586
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    29594
+#ENDEXIT
+
+Reset M 29544 6 29591 -1 -1 -1 100
+  Reset E 29512 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum      29592
+Name      Inside the Palace~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This opulent abode is heavily furnished with items of bronze, gold and silver.
+There is a central throne room to the north of here. This place appears to
+be fairly deserted compared to the rest of the city.
+~
+#EXIT
+Direction north~
+ToRoom    29597
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29588
+Flags     isdoor~
+#ENDEXIT
+
+Reset M 29538 1 29592 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+#ENDROOM
+
+#ROOM
+Vnum      29593
+Name      The End of the Road~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      The road ends here at the sheer face of the northern wall of the city, which
+faces onto the tall, impenetrable mountains that loom north of the plains
+of Ilium.
+~
+#EXIT
+Direction south~
+ToRoom    29590
+#ENDEXIT
+
+Reset M 29545 6 29593 -1 -1 -1 100
+  Reset E 29513 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum      29594
+Name      Atop the Walls~
+Sector    city~
+Flags     nomob~
+Stats     0 0 0 0 0
+Desc      You are strolling along the battlements of the mammoth walls of Troy. To
+the south lies the massive battlefield where Trojans have fought Achaeans
+for the last nine years. To the west lies the wine-dark sea.
+~
+#EXIT
+Direction south~
+ToRoom    29595
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29530
+#ENDEXIT
+
+#EXIT
+Direction down~
+ToRoom    29591
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29595
+Name      Atop the Walls~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are strolling along the battlements of the mammoth walls of Troy. To
+the south lies the massive battlefield where Trojans have fought Achaeans
+for the last nine years. To the west lies the wine-dark sea.
+~
+#EXIT
+Direction north~
+ToRoom    29594
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29596
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      29596
+Name      Atop the Walls~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are strolling along the battlements of the mammoth walls of Troy. To
+the south lies the massive battlefield where Trojans have fought Achaeans
+for the last nine years. To the east lies the wine-dark sea.
+
+Progress further south is prevented by a new barricade. Evidently this
+section of the city has been hard-pressed in the siege.
+~
+#EXIT
+Direction north~
+ToRoom    29595
+#ENDEXIT
+
+Reset M 29508 1 29596 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+Reset M 29513 1 29596 -1 -1 -1 100
+  Reset E 29513 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum      29597
+Name      The Center of the Palace~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      Here stands the throne of King Priam, and is the room in which he conducts
+business and receives visitors. To the north, east and west lie the chambers
+of his family.
+~
+#EXIT
+Direction north~
+ToRoom    29600
+#ENDEXIT
+
+#EXIT
+Direction east~
+ToRoom    29598
+#ENDEXIT
+
+#EXIT
+Direction south~
+ToRoom    29592
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    29599
+#ENDEXIT
+
+Reset M 29509 1 29597 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+Reset M 29514 1 29597 -1 -1 -1 100
+  Reset E 29513 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum      29598
+Name      Chambers~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      In these luxurious rooms reside the many members of Priam's family. Soft
+cushions and fabrics are draped over ornate furniture while naked slaves
+walk about pouring wine for the residents who are currently relaxing here.
+Even in times of war, the rich citizens of Ilium live well.
+~
+#EXIT
+Direction west~
+ToRoom    29597
+#ENDEXIT
+
+Reset M 29507 1 29598 -1 -1 -1 100
+  Reset E 29500 1 16 100
+  Reset E 29501 1 17 100
+  Reset E 29519 1 6 100
+  Reset E 29514 1 11 100
+  Reset E 29505 1 5 100
+  Reset E 29516 1 8 100
+Reset M 29511 1 29598 -1 -1 -1 100
+  Reset E 29513 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum      29599
+Name      Chambers~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      In these luxurious rooms reside the many members of Priam's family. Soft
+cushions and fabrics are draped over ornate furniture while naked slaves
+walk about pouring wine for the residents who are currently relaxing here.
+Even in times of war, the rich citizens of Ilium live well.
+~
+#EXIT
+Direction east~
+ToRoom    29597
+#ENDEXIT
+
+Reset M 29536 1 29599 -1 -1 -1 100
+  Reset E 29513 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum      29600
+Name      Chambers~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      In these luxurious rooms reside the many members of Priam's family. Soft
+cushions and fabrics are draped over ornate furniture while naked slaves
+walk about pouring wine for the residents who are currently relaxing here.
+Even in times of war, the rich citizens of Ilium live well.
+~
+#EXIT
+Direction south~
+ToRoom    29597
+#ENDEXIT
+
+Reset M 29512 1 29600 -1 -1 -1 100
+  Reset E 29513 1 16 100
+#ENDROOM
+
+#ENDAREA
