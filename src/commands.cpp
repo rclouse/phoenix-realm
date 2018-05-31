@@ -76,7 +76,7 @@ bool shell_hook( char_data *, const string &, string & );
 void shellcommands( char_data *, short );
 bool local_channel_hook( char_data *, const string &, string & );
 char_data *get_wizvictim( char_data *, const string &, bool );
-char *extract_area_names( char_data * );
+/* char *extract_area_names( char_data * ); */
 bool can_use_mprog( char_data * );
 bool mprog_command_trigger( char_data *, const string & );
 bool oprog_command_trigger( char_data *, const string & );
@@ -1470,7 +1470,7 @@ string extract_command_names( char_data * ch )
    return comm_names;
 }
 
-CMDF( do_bestow )
+/* CMDF( do_bestow )
 {
    string arg, buf;
    char_data *victim;
@@ -1584,7 +1584,7 @@ CMDF( do_bestow )
       argument = one_argument( argument, arg );
    }
    victim->save(  );
-}
+} */
 
 /*
  * Thanks to Grodyn for pointing out bugs in this function.
