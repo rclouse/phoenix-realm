@@ -1456,6 +1456,9 @@ endif
 if class ($n) == Augurer
 mpechoat $n I will direct you to the augurer portal momentarily.
 endif
+if class ($n) == Paladin
+mpechoat $n I can't direct you to the augurer portal.
+endif
 mpechoat $n Please, read the certificate on the wall as you wait.
 ~
 #ENDPROG
@@ -1490,6 +1493,11 @@ mpechoat $r You land in the Vampires Hall with a bounce.
 mpechoaround $r $r disappears down a portal marked:  Vampires Only!
 mptransfer $r 10321
 mpat $r mpforce $r bounce
+endif
+if class ($r) == Paladin
+mpechoat $r The ground attempts to open beneath you!
+mpechoat $r Sadly, the ground refuses to open.
+mpechoaround $r $r attempts to disappear through a portal, but fails miserably!
 endif
 ~
 #ENDPROG
